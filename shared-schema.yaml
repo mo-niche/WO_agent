@@ -1,5 +1,6 @@
 metadata:
   name: sharedschema
+  version: 1.0.0
 
 rules:
   configs:
@@ -52,4 +53,5 @@ rules:
           - line
         editableBy:
           - OT
+
 
