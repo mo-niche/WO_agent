@@ -1,6 +1,9 @@
 schema:
-  name: priceDetectorSchema
+  name: sharedschema
   version: 1.0.0
+metadata:
+  name: appName
+  version: 1.0.9
 configs:
   AppName: PriceDetector
   TemperatureRangeMax: ${{$val(TemperatureRangeMax)}}
@@ -10,3 +13,4 @@ configs:
   AgentEndpoint: ${{$val(AgentEndpoint)}}
   HealthCheckEnabled: ${{$val(HealthCheckEnabled)}}
   ApplicationEndpoint: ${{$val(ApplicationEndpoint)}}
+
