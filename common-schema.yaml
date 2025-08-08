@@ -1,3 +1,6 @@
+metadata:
+  name: CommonSchema
+  version: 1.0.9
 rules:
   SqlServerEndpoint:
     type: string
@@ -13,3 +16,4 @@ rules:
       - line
     editableBy:
       - OT
+
